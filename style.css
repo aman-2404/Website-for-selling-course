@@ -1,0 +1,161 @@
+*{
+    /* border: solid 1px red; */
+}
+#container{
+    width: 1050px;
+    /* border: 2px solid grey; */
+    margin: 0 auto;    
+}
+
+#header{
+    height: 100px;
+    padding:10px 0px;
+}
+
+#brand{
+    float:left;
+}
+
+h1 a {
+    text-decoration: none;
+    color:#861BBF;
+    font-size: 50px;
+    font-weight: 100;
+}
+
+#searchBox{
+    float: right;
+    background: linear-gradient(skyblue, darkgreen);
+    height: 50px;
+    width: 400px;
+    padding:20px 20px 0px 20px;
+    margin-top: 20px;
+}
+
+.text{
+    float:left;
+    padding:5px;
+    width:200px;
+    font-size: 15px;
+    color:orange;
+    background: white url('images/search_logo.png') right no-repeat;
+}
+
+.submit{
+    float:right;
+    padding:5px;
+    color:white;
+    background:#861BBF;
+}
+
+.clear{
+    clear:both;
+    /* border:solid 2px green; */
+}
+
+#menu{
+    height: 70px;
+    background: linear-gradient(rgb(184, 213, 42), yellow);
+    padding: 7px 0px;
+}
+
+ul{
+    list-style: none;
+}
+
+#menu ul li{
+    float: left;
+    padding: 0 30px;
+    height: 25px;
+    border-right: 1px solid #861BBF;
+    line-height: 30px;
+}
+
+#menu ul li:last-child{
+    border-right:none;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    transition: font-size 0.3s ease;
+}
+
+#menu ul li a:hover, #menu ul li a.active{
+    color: #861BBF;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#introduction {  
+    background: linear-gradient(rgb(114, 190, 114), rgb(19, 122, 19));
+    padding:30px;
+    margin:15px 0px;
+}
+
+#introduction h3{
+    font-size: 40px;
+}
+
+#introduction p{
+    font-size: 25px;
+    text-align: justify;
+}
+
+.sidebars{
+    width:450px;
+    height: 500px;
+    border: 2px solid #861BBF;
+    border-radius: 20px;
+    padding: 20px 30px;
+}
+
+.sidebars h3{
+    font-size:30px;
+    color:#861BBF;
+}
+
+.sidebars ul{
+    padding-top:8px;
+}
+
+#leftsidebar ul li{
+    padding-bottom: 6px;
+    padding-left: 10px;
+    list-style-image: url('images/arroq.png');
+}
+
+#rightsidebar ul li{
+    padding: 20px 0px 20px 70px;
+    background: url('images/tick.png') no-repeat left center;
+}
+
+.sidebars ul li a{
+    text-decoration: none;
+    color: #ac7cc7;
+    font-size: 20px;
+    transition: font-size 0.3s ease;
+}
+
+.sidebars ul li a:hover, .sidebars ul li a.active{
+    color: #861BBF;
+    font-size: 23px;
+    font-weight: bold;
+   
+}
+
+#leftsidebar{
+    float:left;
+} 
+
+#rightsidebar{
+    float:right;
+}
+
+.footer{
+    height:60px;
+    background: linear-gradient(rgb(184, 213, 42), yellow);
+    padding: 10px 30px;
+    margin-top: 15px;
+}
